@@ -61,6 +61,7 @@ UPDATE Loans SET ReturnDate = NOW() WHERE LoanID = 1;
 
 -- Delete a Member:
 
+DELETE FROM Loans WHERE MemberID = 2;
 DELETE FROM Members WHERE MemberID = 2;
 
 
